@@ -8,14 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/hardcode/git/c/base/arrays.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/arrays.c.o"
-  "/Users/hardcode/git/c/base/const.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/const.c.o"
-  "/Users/hardcode/git/c/base/enum.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/enum.c.o"
-  "/Users/hardcode/git/c/base/links.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/links.c.o"
-  "/Users/hardcode/git/c/base/main.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/main.c.o"
-  "/Users/hardcode/git/c/base/sizes.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/sizes.c.o"
+  "C:/Users/rocket/git/c/base/args.c" "C:/Users/rocket/git/c/base/cmake-build-debug/CMakeFiles/base.dir/args.c.obj"
+  "C:/Users/rocket/git/c/base/arrays.c" "C:/Users/rocket/git/c/base/cmake-build-debug/CMakeFiles/base.dir/arrays.c.obj"
+  "C:/Users/rocket/git/c/base/const.c" "C:/Users/rocket/git/c/base/cmake-build-debug/CMakeFiles/base.dir/const.c.obj"
+  "C:/Users/rocket/git/c/base/enum.c" "C:/Users/rocket/git/c/base/cmake-build-debug/CMakeFiles/base.dir/enum.c.obj"
+  "C:/Users/rocket/git/c/base/links.c" "C:/Users/rocket/git/c/base/cmake-build-debug/CMakeFiles/base.dir/links.c.obj"
+  "C:/Users/rocket/git/c/base/main.c" "C:/Users/rocket/git/c/base/cmake-build-debug/CMakeFiles/base.dir/main.c.obj"
+  "C:/Users/rocket/git/c/base/sizes.c" "C:/Users/rocket/git/c/base/cmake-build-debug/CMakeFiles/base.dir/sizes.c.obj"
+  "C:/Users/rocket/git/c/base/string.c" "C:/Users/rocket/git/c/base/cmake-build-debug/CMakeFiles/base.dir/string.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

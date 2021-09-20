@@ -3,12 +3,16 @@ void enumFn();
 void links();
 void arrays();
 void consts();
+void strings();
+void args();
 
-int main() {
+int main(int argc, char **argv) {
     // sizes();
     // enumFn();
     // links();
     // arrays();
-    consts();
+    // consts();
+    // strings();
+    args(argc, argv);
     return 0;
 }
