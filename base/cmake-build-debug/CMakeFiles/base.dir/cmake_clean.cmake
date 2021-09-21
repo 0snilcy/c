@@ -1,16 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/base.dir/args.c.obj"
-  "CMakeFiles/base.dir/arrays.c.obj"
-  "CMakeFiles/base.dir/const.c.obj"
-  "CMakeFiles/base.dir/enum.c.obj"
-  "CMakeFiles/base.dir/links.c.obj"
-  "CMakeFiles/base.dir/main.c.obj"
-  "CMakeFiles/base.dir/sizes.c.obj"
-  "CMakeFiles/base.dir/string.c.obj"
-  "base.exe"
-  "base.exe.manifest"
+  "CMakeFiles/base.dir/args.c.o"
+  "CMakeFiles/base.dir/arrays.c.o"
+  "CMakeFiles/base.dir/const.c.o"
+  "CMakeFiles/base.dir/enum.c.o"
+  "CMakeFiles/base.dir/links.c.o"
+  "CMakeFiles/base.dir/main.c.o"
+  "CMakeFiles/base.dir/sizes.c.o"
+  "CMakeFiles/base.dir/string.c.o"
+  "base"
   "base.pdb"
-  "libbase.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

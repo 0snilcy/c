@@ -6,7 +6,33 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/rocket/git/c/base/args.c
+/Users/hardcode/git/c/base/args.c
+stdio.h
+-
+
+/Users/hardcode/git/c/base/arrays.c
+stdio.h
+-
+
+/Users/hardcode/git/c/base/const.c
+stdio.h
+-
+
+/Users/hardcode/git/c/base/enum.c
+stdio.h
+-
+
+/Users/hardcode/git/c/base/links.c
+stdio.h
+-
+
+/Users/hardcode/git/c/base/main.c
+
+/Users/hardcode/git/c/base/sizes.c
+stdio.h
+-
+
+/Users/hardcode/git/c/base/string.c
 stdio.h
 -
 
