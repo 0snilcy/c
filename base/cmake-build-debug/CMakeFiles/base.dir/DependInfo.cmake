@@ -8,16 +8,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/hardcode/git/c/base/args.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/args.c.o"
-  "/Users/hardcode/git/c/base/arrays.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/arrays.c.o"
-  "/Users/hardcode/git/c/base/const.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/const.c.o"
-  "/Users/hardcode/git/c/base/enum.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/enum.c.o"
-  "/Users/hardcode/git/c/base/links.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/links.c.o"
-  "/Users/hardcode/git/c/base/main.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/main.c.o"
-  "/Users/hardcode/git/c/base/sizes.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/sizes.c.o"
-  "/Users/hardcode/git/c/base/string.c" "/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/string.c.o"
+  "/home/rocket/CLionProjects/c/base/args.c" "/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles/base.dir/args.c.o"
+  "/home/rocket/CLionProjects/c/base/arrays.c" "/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles/base.dir/arrays.c.o"
+  "/home/rocket/CLionProjects/c/base/const.c" "/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles/base.dir/const.c.o"
+  "/home/rocket/CLionProjects/c/base/enum.c" "/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles/base.dir/enum.c.o"
+  "/home/rocket/CLionProjects/c/base/links.c" "/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles/base.dir/links.c.o"
+  "/home/rocket/CLionProjects/c/base/main.c" "/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles/base.dir/main.c.o"
+  "/home/rocket/CLionProjects/c/base/sizes.c" "/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles/base.dir/sizes.c.o"
+  "/home/rocket/CLionProjects/c/base/string.c" "/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles/base.dir/string.c.o"
+  "/home/rocket/CLionProjects/c/base/struct.c" "/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles/base.dir/struct.c.o"
+  "/home/rocket/CLionProjects/c/base/typedef.c" "/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles/base.dir/typedef.c.o"
+  "/home/rocket/CLionProjects/c/base/union.c" "/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles/base.dir/union.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

@@ -5,6 +5,9 @@ void arrays();
 void consts();
 void strings();
 void args();
+void unionFn();
+void structFn();
+void typedefFn();
 
 int main(int argc, char **argv) {
     // sizes();
@@ -13,6 +16,10 @@ int main(int argc, char **argv) {
     // arrays();
     // consts();
     // strings();
-    args(argc, argv);
+    // args(argc, argv);
+    // unionFn();
+    // structFn();
+    typedefFn();
+
     return 0;
 }

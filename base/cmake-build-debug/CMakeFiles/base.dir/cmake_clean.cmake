@@ -7,6 +7,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/base.dir/main.c.o"
   "CMakeFiles/base.dir/sizes.c.o"
   "CMakeFiles/base.dir/string.c.o"
+  "CMakeFiles/base.dir/struct.c.o"
+  "CMakeFiles/base.dir/typedef.c.o"
+  "CMakeFiles/base.dir/union.c.o"
   "base"
   "base.pdb"
 )

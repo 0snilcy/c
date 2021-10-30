@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /home/rocket/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /home/rocket/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hardcode/git/c/base
+CMAKE_SOURCE_DIR = /home/rocket/CLionProjects/c/base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hardcode/git/c/base/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rocket/CLionProjects/c/base/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/base.dir/depend.make
@@ -68,107 +68,146 @@ include CMakeFiles/base.dir/flags.make
 
 CMakeFiles/base.dir/main.c.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/base.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/main.c.o -c /Users/hardcode/git/c/base/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/base.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/main.c.o -c /home/rocket/CLionProjects/c/base/main.c
 
 CMakeFiles/base.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hardcode/git/c/base/main.c > CMakeFiles/base.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rocket/CLionProjects/c/base/main.c > CMakeFiles/base.dir/main.c.i
 
 CMakeFiles/base.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hardcode/git/c/base/main.c -o CMakeFiles/base.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rocket/CLionProjects/c/base/main.c -o CMakeFiles/base.dir/main.c.s
 
 CMakeFiles/base.dir/sizes.c.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/sizes.c.o: ../sizes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/base.dir/sizes.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/sizes.c.o -c /Users/hardcode/git/c/base/sizes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/base.dir/sizes.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/sizes.c.o -c /home/rocket/CLionProjects/c/base/sizes.c
 
 CMakeFiles/base.dir/sizes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base.dir/sizes.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hardcode/git/c/base/sizes.c > CMakeFiles/base.dir/sizes.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rocket/CLionProjects/c/base/sizes.c > CMakeFiles/base.dir/sizes.c.i
 
 CMakeFiles/base.dir/sizes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base.dir/sizes.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hardcode/git/c/base/sizes.c -o CMakeFiles/base.dir/sizes.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rocket/CLionProjects/c/base/sizes.c -o CMakeFiles/base.dir/sizes.c.s
 
 CMakeFiles/base.dir/enum.c.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/enum.c.o: ../enum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/base.dir/enum.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/enum.c.o -c /Users/hardcode/git/c/base/enum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/base.dir/enum.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/enum.c.o -c /home/rocket/CLionProjects/c/base/enum.c
 
 CMakeFiles/base.dir/enum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base.dir/enum.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hardcode/git/c/base/enum.c > CMakeFiles/base.dir/enum.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rocket/CLionProjects/c/base/enum.c > CMakeFiles/base.dir/enum.c.i
 
 CMakeFiles/base.dir/enum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base.dir/enum.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hardcode/git/c/base/enum.c -o CMakeFiles/base.dir/enum.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rocket/CLionProjects/c/base/enum.c -o CMakeFiles/base.dir/enum.c.s
 
 CMakeFiles/base.dir/links.c.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/links.c.o: ../links.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/base.dir/links.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/links.c.o -c /Users/hardcode/git/c/base/links.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/base.dir/links.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/links.c.o -c /home/rocket/CLionProjects/c/base/links.c
 
 CMakeFiles/base.dir/links.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base.dir/links.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hardcode/git/c/base/links.c > CMakeFiles/base.dir/links.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rocket/CLionProjects/c/base/links.c > CMakeFiles/base.dir/links.c.i
 
 CMakeFiles/base.dir/links.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base.dir/links.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hardcode/git/c/base/links.c -o CMakeFiles/base.dir/links.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rocket/CLionProjects/c/base/links.c -o CMakeFiles/base.dir/links.c.s
 
 CMakeFiles/base.dir/arrays.c.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/arrays.c.o: ../arrays.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/base.dir/arrays.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/arrays.c.o -c /Users/hardcode/git/c/base/arrays.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/base.dir/arrays.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/arrays.c.o -c /home/rocket/CLionProjects/c/base/arrays.c
 
 CMakeFiles/base.dir/arrays.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base.dir/arrays.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hardcode/git/c/base/arrays.c > CMakeFiles/base.dir/arrays.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rocket/CLionProjects/c/base/arrays.c > CMakeFiles/base.dir/arrays.c.i
 
 CMakeFiles/base.dir/arrays.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base.dir/arrays.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hardcode/git/c/base/arrays.c -o CMakeFiles/base.dir/arrays.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rocket/CLionProjects/c/base/arrays.c -o CMakeFiles/base.dir/arrays.c.s
 
 CMakeFiles/base.dir/const.c.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/const.c.o: ../const.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/base.dir/const.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/const.c.o -c /Users/hardcode/git/c/base/const.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/base.dir/const.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/const.c.o -c /home/rocket/CLionProjects/c/base/const.c
 
 CMakeFiles/base.dir/const.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base.dir/const.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hardcode/git/c/base/const.c > CMakeFiles/base.dir/const.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rocket/CLionProjects/c/base/const.c > CMakeFiles/base.dir/const.c.i
 
 CMakeFiles/base.dir/const.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base.dir/const.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hardcode/git/c/base/const.c -o CMakeFiles/base.dir/const.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rocket/CLionProjects/c/base/const.c -o CMakeFiles/base.dir/const.c.s
 
 CMakeFiles/base.dir/string.c.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/string.c.o: ../string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/base.dir/string.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/string.c.o -c /Users/hardcode/git/c/base/string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/base.dir/string.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/string.c.o -c /home/rocket/CLionProjects/c/base/string.c
 
 CMakeFiles/base.dir/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base.dir/string.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hardcode/git/c/base/string.c > CMakeFiles/base.dir/string.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rocket/CLionProjects/c/base/string.c > CMakeFiles/base.dir/string.c.i
 
 CMakeFiles/base.dir/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base.dir/string.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hardcode/git/c/base/string.c -o CMakeFiles/base.dir/string.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rocket/CLionProjects/c/base/string.c -o CMakeFiles/base.dir/string.c.s
 
 CMakeFiles/base.dir/args.c.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/args.c.o: ../args.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/base.dir/args.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/args.c.o -c /Users/hardcode/git/c/base/args.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/base.dir/args.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/args.c.o -c /home/rocket/CLionProjects/c/base/args.c
 
 CMakeFiles/base.dir/args.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base.dir/args.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hardcode/git/c/base/args.c > CMakeFiles/base.dir/args.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rocket/CLionProjects/c/base/args.c > CMakeFiles/base.dir/args.c.i
 
 CMakeFiles/base.dir/args.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base.dir/args.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hardcode/git/c/base/args.c -o CMakeFiles/base.dir/args.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rocket/CLionProjects/c/base/args.c -o CMakeFiles/base.dir/args.c.s
+
+CMakeFiles/base.dir/union.c.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/union.c.o: ../union.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/base.dir/union.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/union.c.o -c /home/rocket/CLionProjects/c/base/union.c
+
+CMakeFiles/base.dir/union.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base.dir/union.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rocket/CLionProjects/c/base/union.c > CMakeFiles/base.dir/union.c.i
+
+CMakeFiles/base.dir/union.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base.dir/union.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rocket/CLionProjects/c/base/union.c -o CMakeFiles/base.dir/union.c.s
+
+CMakeFiles/base.dir/struct.c.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/struct.c.o: ../struct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/base.dir/struct.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/struct.c.o -c /home/rocket/CLionProjects/c/base/struct.c
+
+CMakeFiles/base.dir/struct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base.dir/struct.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rocket/CLionProjects/c/base/struct.c > CMakeFiles/base.dir/struct.c.i
+
+CMakeFiles/base.dir/struct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base.dir/struct.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rocket/CLionProjects/c/base/struct.c -o CMakeFiles/base.dir/struct.c.s
+
+CMakeFiles/base.dir/typedef.c.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/typedef.c.o: ../typedef.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/base.dir/typedef.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/base.dir/typedef.c.o -c /home/rocket/CLionProjects/c/base/typedef.c
+
+CMakeFiles/base.dir/typedef.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base.dir/typedef.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rocket/CLionProjects/c/base/typedef.c > CMakeFiles/base.dir/typedef.c.i
+
+CMakeFiles/base.dir/typedef.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base.dir/typedef.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rocket/CLionProjects/c/base/typedef.c -o CMakeFiles/base.dir/typedef.c.s
 
 # Object files for target base
 base_OBJECTS = \
@@ -179,7 +218,10 @@ base_OBJECTS = \
 "CMakeFiles/base.dir/arrays.c.o" \
 "CMakeFiles/base.dir/const.c.o" \
 "CMakeFiles/base.dir/string.c.o" \
-"CMakeFiles/base.dir/args.c.o"
+"CMakeFiles/base.dir/args.c.o" \
+"CMakeFiles/base.dir/union.c.o" \
+"CMakeFiles/base.dir/struct.c.o" \
+"CMakeFiles/base.dir/typedef.c.o"
 
 # External object files for target base
 base_EXTERNAL_OBJECTS =
@@ -192,9 +234,12 @@ base: CMakeFiles/base.dir/arrays.c.o
 base: CMakeFiles/base.dir/const.c.o
 base: CMakeFiles/base.dir/string.c.o
 base: CMakeFiles/base.dir/args.c.o
+base: CMakeFiles/base.dir/union.c.o
+base: CMakeFiles/base.dir/struct.c.o
+base: CMakeFiles/base.dir/typedef.c.o
 base: CMakeFiles/base.dir/build.make
 base: CMakeFiles/base.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable base"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -206,6 +251,6 @@ CMakeFiles/base.dir/clean:
 .PHONY : CMakeFiles/base.dir/clean
 
 CMakeFiles/base.dir/depend:
-	cd /Users/hardcode/git/c/base/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hardcode/git/c/base /Users/hardcode/git/c/base /Users/hardcode/git/c/base/cmake-build-debug /Users/hardcode/git/c/base/cmake-build-debug /Users/hardcode/git/c/base/cmake-build-debug/CMakeFiles/base.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rocket/CLionProjects/c/base/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rocket/CLionProjects/c/base /home/rocket/CLionProjects/c/base /home/rocket/CLionProjects/c/base/cmake-build-debug /home/rocket/CLionProjects/c/base/cmake-build-debug /home/rocket/CLionProjects/c/base/cmake-build-debug/CMakeFiles/base.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/base.dir/depend
 

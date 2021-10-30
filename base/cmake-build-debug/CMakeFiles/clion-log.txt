@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/hardcode/git/c/base
+/home/rocket/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/rocket/CLionProjects/c/base
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/hardcode/git/c/base/cmake-build-debug
+-- Build files have been written to: /home/rocket/CLionProjects/c/base/cmake-build-debug
